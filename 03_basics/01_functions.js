@@ -19,5 +19,28 @@ function loginUserMessage(userName){
     }
     return `${userName} just logged in`
 }
+// console.log(loginUserMessage("Nilak"))
 
-console.log(loginUserMessage("Nilak"))
+function calculateCartPrice(...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200,400,500,600,700,800))
+
+const user = {
+    userName: 'nilak',
+    age: 21
+}
+
+function handleObject(anyobj){
+    console.log(`UserName: ${anyobj.userName}\nAge: ${anyobj.age}`)
+}
+
+// handleObject(user);
+
+const arr1 = [200,400,600]
+
+function returnSecondValue(array){
+    return array[1]
+}
+const secondValue = returnSecondValue(arr1)
+console.log(secondValue)
