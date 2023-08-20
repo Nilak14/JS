@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+</body>
+<script>
+
+    function createDiv(text,color){
+    const div = document.createElement('div');
+    div.className = 'main'
+    div.id = Math.floor(Math.random() * 10 + 1);
+    div.setAttribute("title","Generated")
+    div.style.backgroundColor = color
+    div.style.padding = "12px"
+    console.log(div)
+    const addText = document.createTextNode(text);
+    div.appendChild(addText);
+    document.body.appendChild(div)
+    }
+
+    createDiv("Nilak","red")
+    createDiv("Nepal","blue")
+    createDiv("Pokhara","green")
+
+</script>
+</html>
