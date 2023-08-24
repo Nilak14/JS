@@ -19,7 +19,6 @@ class Teacher extends User{
     constructor(username,email){
         super(username)
         this.email = email
-
     }
 }
 
