@@ -97,7 +97,7 @@
 // }
 // getAllUsers()
 
-// fetch('https://jsonplaceholder.typicode.com/users')
+// const response = fetch('https://jsonplaceholder.typicode.com/users')
 // .then((user)=>{
 //     return user.json()
 // })
@@ -107,4 +107,3 @@
 // .catch((error)=>{
 //     console.log(error)
 // })
-
